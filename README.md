@@ -47,7 +47,7 @@ The dashboard should provide real-time insights into key performance indicators 
 
         Total MTD KPI = CONCATENATE("Total MTD : ",FORMAT([Total MTD]/1000000,"$0.00"))
 
-Snap of Sales Over View KPI
+
 ![Capture](https://github.com/paso2004/Sales/assets/161154534/71200b97-2697-4766-a3bf-0d3d8ef5baaf)
 
 - Step 8 : Follwoing Dax Functions were used to create our Second KPI Average Sales :
@@ -62,8 +62,9 @@ Snap of Sales Over View KPI
 
         Average MTD kpi = CONCATENATE("Average MTD : ",FORMAT([Average MTD]/1000,"$0.00"))
 
-Snap of Sales Over View KPI
+
 ![Capture](https://github.com/paso2004/Sales/assets/161154534/f559e7a5-cec3-4a1a-8b68-e9bde5bb8669)
+
 - Step 9 : Total Car Sales KPI was created using similar DAX functions but with COUNT() command.
 Snap of Sales Over View KPI
 ![Capture2](https://github.com/paso2004/Sales/assets/161154534/0f8aefc4-cf66-44d6-9e5e-d2f23ff1c97f)
